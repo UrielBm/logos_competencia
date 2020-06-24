@@ -11,11 +11,12 @@ function App() {
         <h1>La aplicación de Ramsses Inicio.</h1>
       <div className="Distribucion">
         <img src={logoR} className="App-logoR" alt="logo" />
-        <Roll bottom>
-        <h2>Vs</h2>  
-        </Roll>   
+          <Roll bottom>
+        <h2 className="V">V</h2><h2>s</h2> 
+          </Roll>   
         <img src={logo} className="App-logo" alt="logo" />
         </div>
+        <div className="Footer"> 
         <p>
           Ramsses App Logo vs React 
         </p>
@@ -27,6 +28,7 @@ function App() {
         >
           ¿Quien Gana?
         </a>
+        </div>
       </header>
     </div>
   );
